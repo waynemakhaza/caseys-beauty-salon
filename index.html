@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casey's Beauty & Somatology</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 1rem;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+        }
+        .navbar a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+        .header {
+            text-align: center;
+            padding: 5rem 2rem;
+            background: url('https://drive.google.com/uc?export=view&id=1k12aoHp6yBs2jhdrxuXAGeHQEhQH95qq') no-repeat center center;
+            background-size: cover;
+            color: #fff;
+        }
+        .header h1 {
+            font-family: 'Playfair Display', serif;
+            color: #fff;
+            font-size: 3rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .section {
+            padding: 2rem;
+            text-align: center;
+        }
+        .about, .services, .gallery, .contact {
+            background-color: #fff;
+            margin: 1rem 0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+        }
+        .section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .section p {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .contact input, .contact textarea {
+            width: 80%;
+            max-width: 500px;
+            margin: 0.5rem 0;
+            padding: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact button {
+            padding: 1rem 2rem;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact button:hover {
+            background-color: #575757;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <header class="header" id="home">
+        <h1>Casey's Beauty & Somatology</h1>
+    </header>
+    
+    <section class="section about" id="about">
+        <h2>About Us</h2>
+        <p>At Casey's Beauty & Somatology, we offer a wide range of cosmetic and aesthetic treatments to make you feel and look your best. With over 20 years of experience and international accreditation, we ensure high-quality standards in all our services.</p>
+    </section>
+    
+    <section class="section services" id="services">
+        <h2>Our Services</h2>
+        <p>We offer Manicures, Pedicures, Hand Treatments, Lash Extensions, Foot Treatments, Body Treatments, Tinting, pHformula Products, Facials, Massages, Gel Overlays, and Waxing.</p>
+    </section>
+    
+    <section class="section gallery" id="gallery">
+        <h2>Gallery</h2>
+        <img src="https://drive.google.com/uc?export=view&id=1qMc4psEOpOZWPI4AOol8_I5emNDWTrls" alt="Lash Extensions">
+        <img src="https://drive.google.com/uc?export=view&id=1ayaNUf_p1yOEN-K1iwIZ1PDv0sqdbj3u" alt="Pedicure">
+        <img src="https://drive.google.com/uc?export=view&id=1ooR9itajcqLpOR_n-ASDmjBf90Q6FbV1" alt="Manicure">
+    </section>
+    
+    <section class="section contact" id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>
